@@ -1,0 +1,23 @@
+.usecases_container{
+    margin-top: 8rem;
+    .usecases_heading{
+        text-align: center;
+    }
+    .usecases_subheading{
+        font-weight: 700;
+    }
+ .usecases_grid img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+ }
+ .usecases_grid{
+    h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    p{
+        font-size: 22px;
+    }
+ }
+}

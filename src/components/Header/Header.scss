@@ -1,0 +1,42 @@
+.navbar {
+  font-family: Arial, sans-serif;
+  .nav-link {
+    color: #000 !important;
+    font-weight: bold;
+
+    &:hover,
+    &.active {
+      color: #a084dc !important; /* Purple hover/active color */
+    }
+
+    &.active::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #a084dc;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+    }
+  }
+
+  .dropdown-item {
+    color: #000;
+
+    &:hover {
+      background-color: #f8f9fa; /* Light background on hover */
+      color: #a084dc; /* Purple hover color */
+    }
+  }
+
+  .btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+
+    &:hover {
+      background-color: #28a745;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.usecases_container{
+    margin-top: 8rem;
+    .usecases_heading{
+        text-align: center;
+    }
+    .usecases_subheading{
+        font-weight: 700;
+    }
+    .features_card_section{
+        .card{
+            height: auto;
+            margin: 20px 10px;
+            .card-text {
+                font-weight: 600;
+                display: -webkit-box;
+                -webkit-line-clamp: 2; /* Limit to 3 lines */
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                transition: all 0.3s ease; /* Smooth transition for hover */
+                cursor: pointer;
+          
+                &:hover {
+                  -webkit-line-clamp: unset; /* Show full text on hover */
+                  white-space: normal; /* Allow text to expand */
+                }
+              }
+        }
+    }
+
+}
